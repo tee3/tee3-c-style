@@ -15,8 +15,8 @@
     (tab-width . 8)
     (indent-tabs-mode . nil)
 
-    (c-doc-comment-style . '((c-mode . doxygen)
-                             (c++-mode . doxygen)))
+    (c-doc-comment-style . ((c-mode . doxygen)
+                            (c++-mode . doxygen)))
 
     ;; (c-comment-only-line-offset . 4)
     ;; (c-block-comment-prefix . X)
